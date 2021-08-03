@@ -1,0 +1,46 @@
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .container{
+      margin: 20px;
+  }
+  
+  .board-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  
+  .square {
+    border: 1px solid #000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 17px;
+    width: 100px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+  }
+  
+  .checked {
+    background: rgb(126, 255, 154);
+  }
+  
+  .notchecked {
+    background: rgb(228, 228, 228);
+  }
+  
+  .content {
+    font-size: 15px;
+    font-weight: normal;
+  }
+
+  .text {
+    font-size: 20px;
+    margin: 30px;
+  }
+  
