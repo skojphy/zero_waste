@@ -24,10 +24,12 @@
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
+    color: rgb(119, 119, 119);
   }
   
   .checked {
-    background: rgb(126, 255, 154);
+    background: rgb(145, 255, 145);
+    color: #000;
   }
   
   .notchecked {
